@@ -29,4 +29,14 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Generales y controlados',
       link: '/progress',
       icon: Icons.refresh_rounded),
+  MenuItem(
+      title: 'Snackbars y dialogos',
+      subTitle: 'indicadores en pantalla',
+      link: '/snackbars',
+      icon: Icons.info_outline),
+  MenuItem(
+      title: 'UI Controls',
+      subTitle: 'Controladores de usuario',
+      link: '/iucontrol',
+      icon: Icons.confirmation_number_rounded),
 ];
