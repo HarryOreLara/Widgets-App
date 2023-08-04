@@ -35,8 +35,18 @@ const appMenuItems = <MenuItem>[
       link: '/snackbars',
       icon: Icons.info_outline),
   MenuItem(
-      title: 'UI Controls',
-      subTitle: 'Controladores de usuario',
-      link: '/iucontrol',
-      icon: Icons.confirmation_number_rounded),
+      title: 'UI Controls + Tiles',
+      subTitle: 'Una serie de controles el flutter',
+      link: '/ui-control',
+      icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: 'Animated container',
+      subTitle: 'Stateful widget animado',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank_rounded),
+  MenuItem(
+      title: 'Introduccion a la aplicacion',
+      subTitle: '¨Pequeño tutorial introductorio',
+      link: '/tutorial',
+      icon: Icons.accessible_rounded),
 ];
